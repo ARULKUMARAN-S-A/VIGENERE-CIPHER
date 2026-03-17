@@ -42,7 +42,7 @@ STEP-8: Repeat the above steps to generate the entire cipher text.
  }
  }
  int main() {
- char text[] = "MADHESH", key[] = "WATER";
+ char text[] = "ARULKUMARAN", key[] = "SAVEETHA";
  vigenereCipher(text, key, 0);
  printf("Encrypted Message: %s\n", text);
  vigenereCipher(text, key, 1);
